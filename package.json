@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "callback",
   "main": "src/index.js",
+  "module": "node",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",
-    "promise": "node src/promise/index.js"
-  
+    "promise": "node src/promise/index.js",
+    "promise:challenge": "node src/promise/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -18,6 +19,7 @@
   "author": "gilber",
   "license": "ISC",
   "dependencies": {
+    "xhr2": "^0.2.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
